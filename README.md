@@ -25,5 +25,12 @@
 ## Day 4 - Sidebar styles:
 
 - Side section width
-- Contacts section (spans)
+- Contacts section
 - Tech skill section
+
+## Day 5 - Main content styles:
+
+- Indents and spacing
+- Main content section
+- Projects section
+- Work experience section

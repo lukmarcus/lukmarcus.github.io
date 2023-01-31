@@ -14,6 +14,75 @@ aside {
   background: #1e2939;
 }
 
+main {
+  padding: 88px 102px;
+}
+
+.main-title {
+  width: 400px;
+}
+
+.main-title-job {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  padding-top: 19px;
+  padding-bottom: 24px;
+}
+
+.main-title-short {
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.main-projects {
+  padding-top: 40px;
+  width: 485px;
+}
+
+.main-work {
+  padding-top: 51px;
+}
+
+.orange {
+  color: #fb6d3a;
+}
+
+.main-section-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  padding-bottom: 5px;
+}
+
+.main-sub2section-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  padding-bottom: 12px;
+}
+
+.main-subsection-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  padding-bottom: 11px;
+}
+
+.main-section-date {
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  padding-bottom: 8px;
+}
+
 .wrapper {
   display: flex;
   flex-direction: row-reverse;
@@ -47,10 +116,33 @@ aside {
   color: #ffffff;
 }
 
+.main-links {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration-line: none;
+  color: #595959;
+}
+
 .aside-contacts {
   color: #ffffff;
   font-size: 14px;
   line-height: 24px;
+}
+
+.main-ol-list {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  list-style-position: inside;
+}
+
+.main-ul-list {
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  list-style-position: inside;
+  padding-bottom: 16px;
 }
 
 .aside-list {
