@@ -99,7 +99,7 @@ h1 {
 
 .aside-block {
   padding-top: 40px;
-  padding-left: 30px;
+  padding-left: 40px;
 }
 
 .aside-block h2 {
@@ -142,7 +142,7 @@ h1 {
 }
 
 .aside-block.contacts a {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 40px;
   text-decoration: none;
 }
