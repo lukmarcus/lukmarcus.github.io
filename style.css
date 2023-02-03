@@ -136,6 +136,21 @@ h1 {
   width: 26px;
 }
 
+.aside-block.contacts .aside-bold {
+  font-size: 16px;
+  line-height: 40px;
+}
+
+.aside-block.contacts a {
+  font-size: 16px;
+  line-height: 40px;
+  text-decoration: none;
+}
+
+i {
+  color: #fff;
+}
+
 .main-links {
   font-weight: 400;
   font-size: 14px;
