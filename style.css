@@ -1,5 +1,5 @@
 * {
-  /*box-sizing: border-box;*/
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -102,11 +102,21 @@ h1 {
   padding-left: 40px;
 }
 
-.aside-block h2 il {
+.aside-block h2 {
   color: #ffffff;
 }
 
-.aside-block p a {
+.aside-block il {
+  color: #ffffff;
+}
+
+.aside-block p {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.aside-block a {
   color: #ffffff;
   font-size: 14px;
   line-height: 24px;
