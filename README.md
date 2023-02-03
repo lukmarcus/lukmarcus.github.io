@@ -35,10 +35,12 @@
 - Projects section
 - Work experience section
 
-## (2023-01-31) Day 6 - Uploading it online
+## (2023-01-31) Day 6 - Uploading CV online
 
 - No code writing
 
-## (2023-02-01) Day 7 - Webinar and tag quiz
+## (2023-02-01) Day 7 - Webinar and html tags quiz
 
 - No code writing
+
+## (2023-02-02) Day 8+ - Cleaning the code
