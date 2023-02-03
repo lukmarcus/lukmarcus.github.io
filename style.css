@@ -15,7 +15,7 @@ aside {
 }
 
 main {
-  padding: 88px 102px;
+  padding: 50px 102px;
 }
 
 .main-title {
@@ -94,12 +94,12 @@ h1 {
 }
 
 .cv-photo {
-  margin-top: 25px;
+  margin-top: 50px;
 }
 
 .aside-block {
   padding-top: 40px;
-  padding-left: 40px;
+  padding-left: 30px;
 }
 
 .aside-block h2 {
@@ -142,7 +142,7 @@ h1 {
 }
 
 .aside-block.contacts a {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 40px;
   text-decoration: none;
 }
