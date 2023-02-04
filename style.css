@@ -83,6 +83,10 @@ h1 {
   padding-bottom: 8px;
 }
 
+.projects .main-section-date {
+  font-size: 14px;
+}
+
 .wrapper {
   display: flex;
   flex-direction: row-reverse;
@@ -181,6 +185,20 @@ i {
   color: #595959;
   list-style-position: inside;
   padding-bottom: 16px;
+}
+
+.main-bold {
+  font-weight: 700;
+}
+
+.projects .main-bold {
+  font-weight: 700;
+  color: #000;
+}
+
+.projects {
+  margin-left: 30px;
+  margin-top: 20px;
 }
 
 li > ul {
