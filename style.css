@@ -106,10 +106,6 @@ h1 {
   color: #ffffff;
 }
 
-.aside-block il {
-  color: #ffffff;
-}
-
 .aside-block p {
   color: #ffffff;
   font-size: 14px;
@@ -123,11 +119,24 @@ h1 {
 }
 
 .aside-block ul {
-  color: #fb6d3a;
   font-size: 14px;
   line-height: 24px;
   padding-top: 8px;
   list-style-position: inside;
+  list-style: none;
+}
+
+.aside-block li {
+  color: #ffffff;
+  padding-left: 1em;
+  text-indent: -0.7em;
+}
+
+.aside-block li::before {
+  content: "•";
+  color: #fb6d3a;
+  padding-right: 7px;
+  font-weight: bold;
 }
 
 .aside-bold {
