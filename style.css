@@ -250,6 +250,9 @@ li > ul {
   .page-break-begin {
     margin-top: 50px;
   }
+  .lang {
+    display: none;
+  }
 }
 
 .lang {
