@@ -251,3 +251,13 @@ li > ul {
     margin-top: 50px;
   }
 }
+
+.lang {
+  float: right;
+  color: #808080;
+}
+
+.lang a {
+  text-decoration: none;
+  color: #808080;
+}
