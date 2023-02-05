@@ -15,23 +15,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.css" />
     <link href="style.css" rel="stylesheet" />
     <base target="_blank" />
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
   </head>
 
   <body>
-    <div class="wrapper">
+    <div id="app" class="wrapper">
       <main>
         <div class="main-title">
-          <h2 class="main-title-job">Tester Manualny</h2>
+          <div class="lang"><span @click="lang='en'">EN</span> | <span @click="lang='pl'">PL</span></div>
+          <h2 class="main-title-job">{{ data[lang].mainTitleJob }}</h2>
           <h1>Marek Szumny</h1>
-          <p class="main-title-short">
-            Posiadający solidne doświadczenie techniczne, przez ostatnie lata odpowiedzialny za całkowitą
-            automatyzację procesów e-commerce w wiodącej polskiej firmie, starający się ponownie wkroczyć do
-            świata IT, chcący usystematyzować zdobytą wiedzę wynikającą z kontrybucji do kilku projektów
-            open-source. Widzący swoją rolę w przyszłości na stanowisku testera automatycznego.
-          </p>
+          <p class="main-title-short summary">{{ data[lang].summary }}</p>
         </div>
         <div class="main-work">
-          <h2 class="main-section-title">Doświadczenie zawodowe</h2>
+          <h2 class="main-section-title">{{ data[lang].workExpirience }}</h2>
         </div>
 
         <div>
@@ -347,4 +344,34 @@
       </aside>
     </div>
   </body>
+
+  <script>
+    const { createApp } = Vue;
+
+    createApp({
+      data() {
+        const data = {
+          pl: {
+            mainTitleJob: "Tester Manualny",
+            workExpirience: "Doświadczenie zawodowe",
+            summary:
+              "Posiadający solidne doświadczenie techniczne, przez ostatnie lata odpowiedzialny za całkowitą automatyzację procesów e-commerce w wiodącej polskiej firmie, starający się ponownie wkroczyć doświata IT, chcący usystematyzować zdobytą wiedzę wynikającą z kontrybucji do kilku projektów open-source. Widzący swoją rolę w przyszłości na stanowisku testera automatycznego.",
+          },
+          en: {
+            mainTitleJob: "Manual Tester",
+            workExpirience: "Work experience",
+            summary:
+              "Having solid technical experience, for the last years responsible for the complete automation of e-commerce processes in a leading Polish company, seeking to re-enter the IT world, willing to systematise the knowledge gained from contributing to several open-source projects. Seeing his role in the future as an automated tester.",
+          },
+        };
+
+        const lang = "pl";
+        return {
+          lang,
+          data: data,
+          ...data[lang],
+        };
+      },
+    }).mount("#app");
+  </script>
 </html>
