@@ -202,8 +202,14 @@ i {
   margin-top: 20px;
 }
 
+li {
+  /* https://stackoverflow.com/a/31732969/338581 */
+  padding-left: 1.28571429em;
+  text-indent: -1.28571429em;
+}
+
 li > ul {
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 
 .clause {
