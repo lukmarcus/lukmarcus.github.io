@@ -214,3 +214,21 @@ li > ul {
 .hobby {
   margin-top: 25px
 }
+
+.page-break-end {
+  page-break-after: always;
+  height: 0;
+  width: 0;
+}
+
+.page-break-begin {
+  page-break-before: always;
+  height: 0;
+  width: 0;
+}
+
+@media print {
+  .page-break-begin {
+    margin-top: 50px;
+  }
+}
