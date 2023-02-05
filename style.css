@@ -165,12 +165,24 @@ i {
   color: #fff;
 }
 
-.main-links {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
+.main-ul-list a {
+  font-style: italic;
+  font-weight: 700;
   text-decoration-line: none;
-  color: #595959;
+  color: #1e2939;
+}
+
+.main-section-date a {
+  font-style: italic;
+  font-weight: 700;
+  text-decoration-line: none;
+}
+
+.main-subsection-title a {
+  font-style: italic;
+  font-weight: 700;
+  text-decoration-line: none;
+  color: #1e2939;
 }
 
 .main-ol-list {
