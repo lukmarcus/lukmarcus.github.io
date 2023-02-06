@@ -224,9 +224,14 @@ li > ul {
   margin-top: 30px;
 }
 
-.hobby {
+.hobby-en {
   margin-top: 25px;
   margin-bottom: 371px;
+}
+
+.hobby-pl {
+  margin-top: 25px;
+  margin-bottom: 356px;
 }
 
 .page-break-end {
