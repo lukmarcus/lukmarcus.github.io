@@ -111,12 +111,7 @@ h1 {
   color: #ffffff;
 }
 
-.aside-block p {
-  color: #ffffff;
-  font-size: 14px;
-  line-height: 24px;
-}
-
+.aside-block p,
 .aside-block a {
   color: #ffffff;
   font-size: 14px;
