@@ -307,6 +307,14 @@
             <span class="aside-bold"><i class="fab fa-github"></i></span>
             <a href="https://github.com/lukmarcus">https://github.com/lukmarcus</a>
           </div>
+          <div>
+            <div id="widget">
+            <span id="title">Number of reported issues in open source projects in last 30 days:</span>
+            <div id="count"></div>
+            <div id="link-wrapper"><a id="link" href="#">View Issues on GitHub</a></div>
+          </div>
+        </div>
+      </div>
         </div>
         <div class="aside-block">
           <h2>Testing</h2>
@@ -361,7 +369,30 @@
             <li>Polish Native</li>
           </ul>
         </div>
+        <div class="aside-block">
+          
       </aside>
     </div>
   </body>
+  <script>
+    const widget = document.querySelector("#widget");
+    const title = document.querySelector("#title");
+    const count = document.querySelector("#count");
+    const link = document.querySelector("#link");
+
+    async function getIssues() {
+      const thirtyDaysAgo = new Date();
+      thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
+      const formattedDate = thirtyDaysAgo.toISOString().slice(0, 10);
+
+      const res = await fetch(
+        `https://api.github.com/search/issues?q=author:lukmarcus+type:issue+created:>=${formattedDate}`
+      );
+      const data = await res.json();
+      count.textContent = data.total_count;
+      link.href = `https://github.com/search?q=author%3Alukmarcus+type%3Aissue+created%3A%3E%3D${formattedDate}`;
+    }
+
+    getIssues();
+  </script>
 </html>
