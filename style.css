@@ -180,23 +180,28 @@ i {
   color: #1e2939;
 }
 
-.main-ol-list {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 24px;
-  list-style-position: inside;
-}
-
 .main-ul-list {
   font-size: 14px;
   line-height: 24px;
   color: #595959;
-  list-style-position: inside;
+  list-style-position: outside;
   padding-bottom: 16px;
+  margin-left: 0.8rem;
+}
+
+/* .projects ul {
+  list-style-position: outside;
+} */
+
+.main-ul-list li > ul > li,
+.projects ul {
+  margin-left: 1.5rem;
+  list-style-position: outside;
 }
 
 .main-bold {
   font-weight: 700;
+  margin-left: -0.5rem;
 }
 
 .projects .main-bold {
@@ -205,18 +210,12 @@ i {
 }
 
 .projects {
-  margin-left: 30px;
+  margin-left: 1rem;
   margin-top: 20px;
 }
 
-li {
-  /* https://stackoverflow.com/a/31732969/338581 */
-  padding-left: 1.28571429em;
-  text-indent: -1.28571429em;
-}
-
 li > ul {
-  margin-left: 1rem;
+  margin-left: 0.5rem;
 }
 
 .clause {
