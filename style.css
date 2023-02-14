@@ -20,7 +20,7 @@ main {
 
 .main-title {
   width: 690px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .main-title-job {
@@ -33,7 +33,6 @@ h1 {
   font-weight: 700;
   font-size: 45px;
   line-height: 55px;
-  padding-top: 19px;
   padding-bottom: 24px;
 }
 
