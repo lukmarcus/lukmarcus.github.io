@@ -188,10 +188,6 @@ i {
   margin-left: 0.8rem;
 }
 
-/* .projects ul {
-  list-style-position: outside;
-} */
-
 .main-ul-list li > ul > li,
 .projects ul {
   margin-left: 1.5rem;
@@ -229,7 +225,7 @@ li > ul {
 
 .hobby-pl {
   margin-top: 25px;
-  margin-bottom: 356px;
+  margin-bottom: 405px;
 }
 
 .page-break-end {
