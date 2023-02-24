@@ -247,6 +247,9 @@ li > ul {
   .lang {
     display: none;
   }
+  .aside-print {
+    display: none;
+  }
 }
 
 .lang {
