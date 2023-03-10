@@ -269,3 +269,7 @@ li > ul {
   text-decoration: none;
   color: #808080;
 }
+
+html[lang="pl"] .aside-block h2 {
+  font-size: 20px;
+}
