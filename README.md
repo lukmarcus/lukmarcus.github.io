@@ -8,4 +8,5 @@ You can view it on the website: https://lukmarcus.github.io/ or download it in t
 `sudo apt update && sudo apt install poppler-utils`
 
 #### Merge pdfs
-`pdfunite file1.pdf file2.pdf mergedfile.pdf`
+`pdfunite 'web-print/EN.pdf' 'recommendations/Marek Szumny NDDR EN.pdf' 'CV Marek Szumny.pdf'`
+`pdfunite 'web-print/PL.pdf' 'recommendations/Marek Szumny NDDR PL.pdf' 'CV Marek Szumny PL.pdf'`
