@@ -20,7 +20,6 @@ main {
 
 .main-title {
   width: 690px;
-  margin-bottom: 20px;
 }
 
 .main-title-job {
@@ -33,13 +32,14 @@ h1 {
   font-weight: 700;
   font-size: 45px;
   line-height: 55px;
-  padding-bottom: 24px;
+  padding-bottom: 20px;
 }
 
 .main-title-short {
   font-size: 14px;
   line-height: 24px;
   color: #595959;
+  padding-bottom: 5px;
 }
 
 .main-projects {
@@ -48,7 +48,7 @@ h1 {
 }
 
 .main-work {
-  padding-top: 20px;
+  padding-top: 0px;
 }
 
 .orange {
@@ -59,14 +59,15 @@ h1 {
   font-weight: 700;
   font-size: 22px;
   line-height: 27px;
-  padding-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .main-subsection-title {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  padding-bottom: 11px;
+  padding-bottom: 5px;
 }
 
 .main-sub2section-title {
@@ -102,7 +103,7 @@ h1 {
 }
 
 .aside-block {
-  padding-top: 40px;
+  padding-top: 30px;
   padding-left: 40px;
 }
 
@@ -214,7 +215,7 @@ i {
 
 .projects {
   margin-left: 1rem;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 li > ul {
@@ -227,8 +228,8 @@ li > ul {
 }
 
 .hobby-en {
-  margin-top: 25px;
-  margin-bottom: 381px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .hobby-pl {
