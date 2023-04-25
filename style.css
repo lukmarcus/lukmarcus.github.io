@@ -10,12 +10,13 @@ body {
 }
 
 aside {
-  width: 370px;
+  width: 350px;
   background: #1e2939;
 }
 
 main {
   padding: 50px 80px;
+  width: 850px;
 }
 
 .main-title {
@@ -32,14 +33,18 @@ h1 {
   font-weight: 700;
   font-size: 45px;
   line-height: 55px;
-  padding-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .main-title-short {
   font-size: 14px;
   line-height: 24px;
   color: #595959;
-  padding-bottom: 5px;
+  margin-bottom: 50px;
+}
+
+.hobby-en .main-title-short {
+  margin-bottom: 40px;
 }
 
 .main-projects {
@@ -102,8 +107,12 @@ h1 {
   margin-top: 50px;
 }
 
+/* .no-cv-photo {
+  margin-top: 20px;
+} */
+
 .aside-block {
-  padding-top: 30px;
+  padding-top: 50px;
   padding-left: 40px;
 }
 
