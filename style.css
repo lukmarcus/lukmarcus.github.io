@@ -103,12 +103,8 @@ h1 {
   box-shadow: 6px 6px 20px #0000001a;
 }
 
-.cv-photo {
+/* .cv-photo {
   margin-top: 50px;
-}
-
-/* .no-cv-photo {
-  margin-top: 20px;
 } */
 
 .aside-block {
@@ -116,12 +112,20 @@ h1 {
   padding-left: 40px;
 }
 
+.aside-top {
+  padding-top: 50px;
+  padding-left: 40px;
+  background-color: #fb6d3a;
+  padding-bottom: 50px;
+}
+
 .aside-block h2 {
   color: #ffffff;
 }
 
 .aside-block p,
-.aside-block a {
+.aside-block a,
+.aside-top a {
   color: #ffffff;
   font-size: 14px;
   line-height: 24px;
@@ -134,11 +138,6 @@ h1 {
   list-style-position: inside;
   list-style: none;
 }
-/* 
-.fab,
-.fa {
-  color: black;
-} */
 
 .aside-block li {
   color: #ffffff;
@@ -159,13 +158,14 @@ h1 {
   width: 26px;
 }
 
-.aside-block.contacts .aside-bold {
+.aside-block.contacts .aside-bold,
+.aside-block.top .aside-bold {
   font-size: 16px;
   line-height: 40px;
 }
 
-.aside-block.contacts a {
-  /* color: black; */
+.aside-block.contacts a,
+.aside-top.contacts a {
   font-size: 16px;
   line-height: 40px;
   text-decoration: none;
