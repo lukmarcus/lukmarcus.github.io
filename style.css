@@ -10,16 +10,18 @@ body {
 }
 
 aside {
-  width: 370px;
+  width: 350px;
   background: #1e2939;
 }
 
 main {
   padding: 50px 80px;
+  width: 850px;
 }
 
 .main-title {
   width: 690px;
+  margin-bottom: 50px;
 }
 
 .main-title-job {
@@ -32,14 +34,22 @@ h1 {
   font-weight: 700;
   font-size: 45px;
   line-height: 55px;
-  padding-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .main-title-short {
   font-size: 14px;
   line-height: 24px;
   color: #595959;
-  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.hobby-en .main-title-short {
+  margin-bottom: 40px;
+}
+
+.hobby-pl .main-title-short {
+  margin-bottom: 0px;
 }
 
 .main-projects {
@@ -98,13 +108,21 @@ h1 {
   box-shadow: 6px 6px 20px #0000001a;
 }
 
-.cv-photo {
+/* .cv-photo {
   margin-top: 50px;
-}
+} */
 
 .aside-block {
-  padding-top: 30px;
+  padding-top: 50px;
   padding-left: 40px;
+}
+
+.aside-top {
+  padding-top: 50px;
+  padding-left: 40px;
+  background-color: #fb6d3a;
+  padding-bottom: 50px;
+  font-weight: 600;
 }
 
 .aside-block h2 {
@@ -112,7 +130,8 @@ h1 {
 }
 
 .aside-block p,
-.aside-block a {
+.aside-block a,
+.aside-top a {
   color: #ffffff;
   font-size: 14px;
   line-height: 24px;
@@ -145,12 +164,14 @@ h1 {
   width: 26px;
 }
 
-.aside-block.contacts .aside-bold {
+.aside-block.contacts .aside-bold,
+.aside-block.top .aside-bold {
   font-size: 16px;
   line-height: 40px;
 }
 
-.aside-block.contacts a {
+.aside-block.contacts a,
+.aside-top.contacts a {
   font-size: 16px;
   line-height: 40px;
   text-decoration: none;
@@ -239,7 +260,7 @@ li > ul {
 
 .hobby-pl {
   margin-top: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 15px;
 }
 
 .page-break-end {
