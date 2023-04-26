@@ -21,6 +21,7 @@ main {
 
 .main-title {
   width: 690px;
+  margin-bottom: 50px;
 }
 
 .main-title-job {
@@ -40,11 +41,15 @@ h1 {
   font-size: 14px;
   line-height: 24px;
   color: #595959;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 .hobby-en .main-title-short {
   margin-bottom: 40px;
+}
+
+.hobby-pl .main-title-short {
+  margin-bottom: 0px;
 }
 
 .main-projects {
@@ -255,7 +260,7 @@ li > ul {
 
 .hobby-pl {
   margin-top: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 15px;
 }
 
 .page-break-end {
