@@ -134,6 +134,11 @@ h1 {
   list-style-position: inside;
   list-style: none;
 }
+/* 
+.fab,
+.fa {
+  color: black;
+} */
 
 .aside-block li {
   color: #ffffff;
@@ -160,6 +165,7 @@ h1 {
 }
 
 .aside-block.contacts a {
+  /* color: black; */
   font-size: 16px;
   line-height: 40px;
   text-decoration: none;
