@@ -177,11 +177,13 @@ h1 {
   text-decoration: none;
 }
 
-.aside-block.aside-print i {
-  padding-left: 1em;
+.aside-block.aside-print i,
+.aside-block.aside-noprint i {
+  padding-left: 0.5em;
 }
 
-.aside-block.aside-print a {
+.aside-block.aside-print a,
+.aside-block.aside-noprint a {
   text-decoration: none;
 }
 
