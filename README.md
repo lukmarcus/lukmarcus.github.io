@@ -1,3 +1,9 @@
-# Marek Szumny's CV
+# Marek Szumny - CV
 
-You can view it on the website: https://lukmarcus.github.io/ or download it in the form of a [PDF file](https://github.com/lukmarcus/lukmarcus.github.io/raw/main/MarekSzumny_CV.pdf).
+- A bilingual version of my CV is available on the website: https://lukmarcus.github.io/
+- Or as an [PDF file in English](https://github.com/lukmarcus/lukmarcus.github.io/raw/main/MarekSzumny_CV.pdf)
+
+---
+
+- Dwujęzyczna wersja mojego CV jest dostępna na stronie: https://lukmarcus.github.io/
+- Albo jako [plik PDF po polsku](https://github.com/lukmarcus/lukmarcus.github.io/raw/main/MarekSzumny_CV_PL.pdf)
