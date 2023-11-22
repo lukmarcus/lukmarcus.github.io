@@ -9,6 +9,16 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+#switch-lang {
+  background: none;
+  color: #808080;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+
 aside {
   width: 350px;
   background: #1e2939;
@@ -127,6 +137,10 @@ h1 {
 
 .aside-block h2 {
   color: #ffffff;
+}
+
+.aside-block h2.pl {
+  font-size: 20px;
 }
 
 .aside-block p,
@@ -297,8 +311,4 @@ li > ul {
 .lang a {
   text-decoration: none;
   color: #808080;
-}
-
-html[lang="pl"] .aside-block h2 {
-  font-size: 20px;
 }

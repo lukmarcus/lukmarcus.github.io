@@ -34,8 +34,12 @@
       <main>
         <div class="main-title">
           <div class="lang">
-            <a href="MarekSzumny_CV.pdf"><span class="orange">PDF</span></a> | <b>EN</b> |
-            <a href="./index-pl.html" target="_self">PL</a>
+            <a href="MarekSzumny_CV.pdf" data-lang="en"><span class="orange">Download PDF</span></a>
+            <a href="MarekSzumny_CV_PL.pdf" data-lang="pl" style="display: none"
+              ><span class="orange">Pobierz PDF</span></a
+            >
+            |
+            <button id="switch-lang" data-current-lang="en">Language</button>
           </div>
           <h1>Marek Szumny</h1>
           <p class="main-title-short">
@@ -379,12 +383,22 @@
           </div>
         </div>
 
-        <div class="aside-block">
+        <div class="aside-block" data-lang="en">
           <h2>Automated Testing</h2>
           <ul>
             <li>Playwright</li>
             <li>Cypress</li>
             <li>CSS selectors / XPath</li>
+            <li>JMeter / Postman / Newman</li>
+          </ul>
+        </div>
+
+        <div class="aside-block" data-lang="pl" style="display: none">
+          <h2 class="pl">Testowanie automatyczne</h2>
+          <ul>
+            <li>Playwright</li>
+            <li>Cypress</li>
+            <li>CSS Selectors / XPath</li>
             <li>JMeter / Postman / Newman</li>
           </ul>
         </div>
