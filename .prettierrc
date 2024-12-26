@@ -2,5 +2,7 @@
   "tabWidth": 2,
   "useTabs": false,
   "printWidth": 110,
-  "eol": "lf"
+  "eol": "lf",
+  "htmlWhitespaceSensitivity": "ignore",
+  "singleAttributePerLine": false
 }
