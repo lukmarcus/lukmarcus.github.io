@@ -158,7 +158,7 @@ h1 {
 }
 
 .aside-block li::before {
-  content: "•";
+  content: "• ";
   color: #fb6d3a;
   padding-right: 7px;
   font-weight: bold;
