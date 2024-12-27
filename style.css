@@ -287,11 +287,17 @@ li > ul {
   .page-break-begin {
     margin-top: 50px;
   }
-  .lang {
-    display: none;
-  }
+  .lang,
   .aside-print {
     display: none;
+  }
+  .main-section-date a,
+  .main-ul-list a {
+    font-style: normal;
+    font-weight: normal;
+  }
+  .main-ul-list a {
+    color: #595959;
   }
 }
 
