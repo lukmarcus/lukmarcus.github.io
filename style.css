@@ -59,15 +59,11 @@ h1 {
   margin-bottom: 50px;
 }
 
-.main-title-short {
+.main-paragraph {
   font-size: 14px;
   line-height: 24px;
   color: #595959;
   margin-bottom: 10px;
-}
-
-.main-work {
-  padding-top: 0px;
 }
 
 .main-section-title {
@@ -85,11 +81,23 @@ h1 {
   padding-bottom: 5px;
 }
 
+.main-subsection-title a {
+  font-style: italic;
+  text-decoration-line: none;
+  color: inherit;
+}
+
 .main-section-date {
   font-size: 12px;
   line-height: 15px;
   color: #a8a8a8;
   padding-bottom: 8px;
+}
+
+.main-section-date a {
+  font-style: italic;
+  font-weight: 700;
+  text-decoration-line: none;
 }
 
 .main-sub2section-title {
@@ -106,19 +114,6 @@ h1 {
   list-style-position: outside;
   padding-bottom: 16px;
   margin-left: 0.8rem;
-}
-
-.main-section-date a {
-  font-style: italic;
-  font-weight: 700;
-  text-decoration-line: none;
-}
-
-.main-subsection-title a {
-  font-style: italic;
-  font-weight: 700;
-  text-decoration-line: none;
-  color: #1e2939;
 }
 
 .main-ul-list a {
@@ -291,6 +286,10 @@ aside {
   .main-ul-list a {
     font-style: normal;
     font-weight: normal;
+  }
+
+  .main-subsection-title a {
+    font-style: normal;
   }
 
   .main-ul-list a {
