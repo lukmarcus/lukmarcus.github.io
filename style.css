@@ -26,29 +26,26 @@ main {
   width: 850px;
 }
 
-.main-title {
+.main-top {
   width: 690px;
   margin-bottom: 50px;
 }
 
-.lang {
+.main-lang {
   float: right;
-  color: #808080;
 }
 
-.lang a {
+.main-lang a {
   text-decoration: none;
-  color: #808080;
+  color: #fb6d3a;
 }
 
 #switch-lang {
   background: none;
   color: #808080;
   border: none;
-  padding: 0;
   font: inherit;
   cursor: pointer;
-  text-decoration: none;
 }
 
 .orange {
@@ -284,7 +281,8 @@ aside {
   .page-break-begin {
     margin-top: 50px;
   }
-  .lang,
+
+  .main-lang,
   .aside-print {
     display: none;
   }
