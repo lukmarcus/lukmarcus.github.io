@@ -283,6 +283,10 @@ li > ul {
   width: 0;
 }
 
+.certificates-print {
+  display: none;
+}
+
 @media print {
   .page-break-begin {
     margin-top: 50px;
@@ -298,6 +302,9 @@ li > ul {
   }
   .main-ul-list a {
     color: #595959;
+  }
+  .certificates-print {
+    display: block;
   }
 }
 
