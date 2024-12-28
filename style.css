@@ -54,14 +54,6 @@ h1 {
   margin-bottom: 10px;
 }
 
-.hobby-en .main-title-short {
-  margin-bottom: 40px;
-}
-
-.hobby-pl .main-title-short {
-  margin-bottom: 0px;
-}
-
 .main-projects {
   padding-top: 40px;
   width: 485px;
@@ -251,24 +243,20 @@ li > ul {
   margin-left: 0.5rem;
 }
 
-.clause-en {
-  font-size: 10px;
-  margin-top: 30px;
-}
-
-.clause-pl {
-  font-size: 10px;
+.hobby {
   margin-top: 10px;
 }
 
 .hobby-en {
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 65px;
 }
 
 .hobby-pl {
-  margin-top: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 90px;
+}
+
+.clause {
+  font-size: 10px;
 }
 
 .page-break-end {
