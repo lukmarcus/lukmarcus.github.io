@@ -167,18 +167,24 @@ aside {
   background: #1e2939;
 }
 
-.aside-block {
-  color: #ffffff;
-  padding-top: 50px;
-  padding-left: 40px;
-}
-
 .aside-top {
   padding-top: 50px;
   padding-left: 40px;
   background-color: #fb6d3a;
   padding-bottom: 50px;
   font-weight: 600;
+}
+
+.aside-bold {
+  font-weight: 700;
+  display: inline-block;
+  width: 26px;
+}
+
+.aside-block {
+  color: #ffffff;
+  padding-top: 50px;
+  padding-left: 40px;
 }
 
 .aside-block ul {
@@ -201,16 +207,6 @@ aside {
   font-weight: bold;
 }
 
-.aside-bold {
-  font-weight: 700;
-  display: inline-block;
-  width: 26px;
-}
-
-.aside-block span.pl {
-  font-size: 20px;
-}
-
 .aside-block p,
 .aside-block a,
 .aside-top a {
@@ -219,18 +215,11 @@ aside {
   line-height: 24px;
 }
 
-.aside-block.contacts .aside-bold,
-.aside-block.top .aside-bold {
-  font-size: 16px;
-  line-height: 40px;
-}
-
 .aside-block.aside-print i,
 .aside-block.aside-noprint i {
   padding-left: 0.5em;
 }
 
-.aside-block.contacts a,
 .aside-top.contacts a {
   font-size: 16px;
   line-height: 40px;
