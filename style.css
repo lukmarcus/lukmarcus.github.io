@@ -48,7 +48,7 @@ main {
   cursor: pointer;
 }
 
-.orange {
+.no-link-orange {
   color: #fb6d3a;
 }
 
@@ -87,24 +87,25 @@ h1 {
   color: inherit;
 }
 
-.main-section-date {
+.main-subsection-date {
   font-size: 12px;
   line-height: 15px;
   color: #a8a8a8;
   padding-bottom: 8px;
 }
 
-.main-section-date a {
+.main-subsection-date a {
   font-style: italic;
   font-weight: 700;
   text-decoration-line: none;
+  color: #fb6d3a;
 }
 
 .main-sub2section-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
-  padding-bottom: 12px;
+  padding-bottom: 5px;
 }
 
 .main-ul-list {
@@ -123,12 +124,6 @@ h1 {
   color: #808080;
 }
 
-.main-ul-list li > ul > li,
-.projects ul {
-  margin-left: 1.5rem;
-  list-style-position: outside;
-}
-
 .projects {
   margin-left: 1rem;
   margin-top: 10px;
@@ -144,7 +139,13 @@ h1 {
   color: #000;
 }
 
-.projects .main-section-date {
+.main-ul-list li > ul > li,
+.projects ul {
+  margin-left: 1.5rem;
+  list-style-position: outside;
+}
+
+.projects .main-subsection-date {
   font-size: 14px;
 }
 
@@ -157,11 +158,11 @@ li > ul {
 }
 
 .hobby-en {
-  margin-bottom: 65px;
+  margin-bottom: 70px;
 }
 
 .hobby-pl {
-  margin-bottom: 90px;
+  margin-bottom: 95px;
 }
 
 .clause {
@@ -282,7 +283,7 @@ aside {
     display: none;
   }
 
-  .main-section-date a,
+  .main-subsection-date a,
   .main-ul-list a {
     font-style: normal;
     font-weight: normal;
