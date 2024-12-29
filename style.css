@@ -106,6 +106,7 @@ h1 {
   font-size: 14px;
   line-height: 17px;
   padding-bottom: 5px;
+  color: #000000;
 }
 
 .main-ul-list {
@@ -124,48 +125,34 @@ h1 {
   color: #808080;
 }
 
-.projects {
+.main-subsection-projects {
   margin-left: 1rem;
   margin-top: 10px;
 }
 
-.main-bold {
-  font-weight: 700;
-  margin-left: -0.5rem;
-}
-
-.projects .main-bold {
-  font-weight: 700;
-  color: #000;
-}
-
 .main-ul-list li > ul > li,
-.projects ul {
+.main-subsection-projects ul {
   margin-left: 1.5rem;
   list-style-position: outside;
 }
 
-.projects .main-subsection-date {
+.main-subsection-projects .main-subsection-date {
   font-size: 14px;
 }
 
-li > ul {
-  margin-left: 0.5rem;
-}
-
-.hobby {
+.main-hobby {
   margin-top: 10px;
 }
 
-.hobby-en {
+.main-hobby-en {
   margin-bottom: 70px;
 }
 
-.hobby-pl {
+.main-hobby-pl {
   margin-bottom: 95px;
 }
 
-.clause {
+.main-clause {
   font-size: 10px;
 }
 
