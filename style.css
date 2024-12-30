@@ -194,6 +194,10 @@ aside {
   padding-left: 40px;
 }
 
+.aside-header-long {
+  font-size: 20px;
+}
+
 .aside-block a {
   color: #ffffff;
   font-size: 14px;
