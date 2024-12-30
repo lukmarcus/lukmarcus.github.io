@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Initialize the button text based on the current language
   const updateButtonText = (lang) => {
-    switchLangButton.textContent = lang === "en" ? "Switch to PL" : "Przełącz na EN";
+    switchLangButton.textContent = lang === "en" ? "Przełącz na PL" : "Switch to EN";
   };
 
   // Set the initial button text and get the current language
