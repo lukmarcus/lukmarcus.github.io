@@ -225,6 +225,10 @@ aside {
   font-weight: bold;
 }
 
+.cert-source {
+  font-size: 10px;
+}
+
 /* === PRINT === */
 
 .page-break-end {
@@ -241,6 +245,15 @@ aside {
 
 .aside-print {
   display: none;
+}
+
+.aside-print .cert-source {
+  margin-left: 22px;
+  line-height: 10px;
+}
+
+.aside-noprint .cert-source {
+  margin-left: 14px;
 }
 
 @media print {
