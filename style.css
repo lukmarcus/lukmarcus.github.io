@@ -231,6 +231,7 @@ aside {
 
 .cert-source {
   font-size: 10px;
+  font-style: italic;
 }
 
 /* === PRINT === */
