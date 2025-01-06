@@ -225,6 +225,10 @@ aside {
   font-weight: bold;
 }
 
+#certificates .aside-noprint {
+  margin-top: 8px;
+}
+
 .cert-source {
   font-size: 10px;
 }
