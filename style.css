@@ -225,7 +225,8 @@ aside {
   font-weight: bold;
 }
 
-#certificates .aside-noprint {
+#certificates .aside-noprint,
+#recommendations {
   margin-top: 8px;
 }
 
