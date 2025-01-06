@@ -1,3 +1,5 @@
+import { loadCertificates } from "./js/certificates.js";
+
 window.onload = function () {
   window.parent.postMessage(
     { type: "size", height: document.body.scrollHeight, width: document.body.scrollWidth },
@@ -33,3 +35,6 @@ document.addEventListener("DOMContentLoaded", () => {
     toggleLanguageElements(currentLang);
   });
 });
+
+// Load each section
+loadCertificates();
