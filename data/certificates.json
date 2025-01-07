@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Test Automation with Playwright",
+    "source": "jaktestowac.pl",
+    "link": "./certificates/MarekSzumny_TestAutomationWithPlaywright_JakTestowac.pdf"
+  },
+  {
+    "title": "Playwright 101",
+    "source": "LambdaTest",
+    "link": "./certificates/MarekSzumny_Playwright101_LambdaTest.pdf"
+  },
+  {
+    "title": "Apache JMeter Intro & Pro",
+    "source": "BlazeMeter University",
+    "link": "./certificates/MarekSzumny_ApacheJMeterIntroPro_BlazeMeterUniversity.pdf"
+  },
+  {
+    "title": "The Fundamentals of Software Testing",
+    "source": "QATestLab Training Center",
+    "link": "./certificates/MarekSzumny_TheFundamentalsOfSoftwareTesting_QATestLabTrainingCenter.pdf"
+  },
+  {
+    "title": "Associate Data Analyst",
+    "source": "DataCamp",
+    "link": "./certificates/MarekSzumny_AssociateDataAnalyst_DataCamp.pdf"
+  },
+  {
+    "title": "BaseLinker for Beginners",
+    "source": "base.academy",
+    "link": "./certificates/MarekSzumny_BaseLinkerForBeginners_BaseLinkerAcademy.pdf"
+  }
+]
